@@ -51,7 +51,18 @@ For Software:
 [commands]
 
 # Run
-[commands]
+[1. Power on the Arduino UNO.
+2. Open the USELESS BUTTON 3000 web dashboard.
+3. Connect the Arduino through USB.
+4. Stand in front of the system.
+5. Press the USELESS BUTTON.
+6. Wait while the system performs its extremely important analysis.
+7. Observe the sensor data and analysis progress on the dashboard.
+8. The system finally displays:
+
+   USEFULNESS: 0%
+
+   NOTHING HAPPENED.]
 
 ### Project Documentation
 For Software:
@@ -68,8 +79,23 @@ For Software:
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
+Human detected
+        ↓
+HC-SR04 + IR Sensor
+        ↓
+Arduino UNO
+        ↓
+Button Activated
+        ↓
+Useless Analysis
+        ↓
+Serial Communication
+        ↓
+Advanced Dashboard
+        ↓
+USEFULNESS: 0%
+        ↓
+NOTHING HAPPENED 
 For Hardware:
 
 # Schematic & Circuit
